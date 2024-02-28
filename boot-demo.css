@@ -1,0 +1,226 @@
+
+body{
+    background-color: rgb(193, 252, 252);
+    transition: 0.5s;
+    overflow-y: 1px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.col{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin: 15px;
+}
+.more-details {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col-4 {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(115, 115, 115);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.col-4 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type:disc;
+    align-items: start;
+}
+.col-4 li{
+    margin: 5px;
+    text-align: left;
+}
+.whole-ul{
+    padding-left: 20px;
+}
+.topics-1,.topics-2,.topics-3
+    {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+.col-8 {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(239, 238, 239);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 310px;
+    height: 210px;
+    border: solid rgb(0, 255, 183) 2px;
+    transition: 0.5s;
+    margin: 10px;
+}
+img:hover{
+    width: 160px;
+    height: 105px;
+    border: solid rgb(0, 255, 183) 2px;
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin: 5px;
+}
+p{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+}
+
+
+/*  */
+
+.col-1 {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 41, 41);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+}
+.col-1 img{
+    height: 28px;
+    width: 28px;
+    border: none;
+    transition: 0.3s;
+}
+.col-1 img:hover{
+    height: 30px;
+    width: 30px;
+    border: solid rgb(255, 255, 255) 1px;
+    border-radius: 7px;
+}
+@media (min-width: 160px) {
+    body{
+        transition: 0.5s;
+        background-color: rgb(236, 252, 168);
+    }
+    p{
+        transition: 1s;
+    }
+    img{
+        height: 144px;
+        width: auto;
+    }
+    
+}
+@media (min-width: 360px) {
+    body{
+        transition: 0.5s;
+        background-color: rgb(236, 252, 168);
+    }
+    p{
+        transition: 1s;
+    }
+    img{
+        height: 144px;
+        width: auto;
+    }
+    
+}
+@media (min-width: 768px) {
+    body{
+        transition: 0.5s;
+        background-color: rgb(172, 255, 170);
+    }
+    p{
+        transition: 1s;
+    }
+    img{
+        width: 450px;
+        height: 310px;
+    }
+    img:hover{
+        width: 455px;
+        height: 315px;
+        border: solid rgb(0, 255, 183) 2px;
+    }
+    
+    .col-4 h3{
+        font-size: 30px;
+    }
+}
+@media (min-width: 992px) {
+    body{
+        transition: 0.5s;
+        background-color: rgb(173, 176, 255);
+    }
+    p{
+        transition: 1s;
+        font-size: 25px;
+    }
+    img{
+        width: 450px;
+        height: 310px;
+    }
+}
+@media (min-width: 1200px) {
+    body{
+        transition: 0.5s;
+        background-color: rgb(252, 193, 172);
+    }
+    p{
+        transition: 1s;
+        font-size: 30px;
+    }
+    
+}
+@media (min-width: 1400px) {
+    body{
+        background-color: rgb(245, 173, 255);
+    }
+    p{
+        transition: 1s;
+    }
+}
